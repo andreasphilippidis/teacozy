@@ -61,35 +61,66 @@ span a{
   background-image: url(/users/imac/desktop/projects/teacozy/resources/images/img-mission-background.jpg);
 }
 
-.tea-of-the-month{
+.content .our-mission .text-content{
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+
+.content .tea-of-the-month{
   display: flex;
   flex-direction: column;
   width: 1000px;
   background-color: pink;
 }
 
-.text-content{
-  align-items: center;
-  background-color: black;
-  width: 100%;
-}
-
-.image-content{
+.content .tea-of-the-month .image-content{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.feaured-tea img{
+.content .tea-of-the-month .text-content{
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+.content .tea-of-the-month .image-content .feaured-tea{
+
+}
+
+.content .tea-of-the-month .image-content .feaured-tea img{
   display: inline-block;
   height: 200px;
   width: 300px;
 }
 
-.locations{
+.content .locations{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 700px;
   width: 1200px;
-  background-color: blue;
+  background-image: url(/users/imac/desktop/projects/teacozy/resources/images/img-locations-background.jpg);
+}
+
+.content .locations .location-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .locations .text-content{
+
+}
+
+.content .locations .location-details{
+
+}
+
+.content .locations .location-details .address{
+
 }
