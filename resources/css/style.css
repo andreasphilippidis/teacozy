@@ -102,7 +102,7 @@ span a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 700px;
+  height: 570px;
   width: 1200px;
   background-image: url(/users/imac/desktop/projects/teacozy/resources/images/img-locations-background.jpg);
 }
@@ -118,9 +118,23 @@ span a{
 }
 
 .content .locations .location-details{
-
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
 }
 
 .content .locations .location-details .address{
+  background-color: black;
+  width: 300px;
+}
 
+.content footer .contact{
+  height: 200px;
+}
+
+.content .copyright{
+  display: flex;
+  width: 100%;
+  background-color: pink;
+  justify-content: flex-start;
 }
